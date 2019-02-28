@@ -1,0 +1,14 @@
+Data Sources
+
+I attempted to use ProPublica as my main data source for an API but the Datbase was moved.
+I had to pivot and use FEC Campaign Data API.
+I also used a CSV that covered campaign contributions from Telecom Companines that were affected by the net neutrality vote.
+
+The Process
+
+I took data from the FEC API and converted into a pandas data frame, extracting the 'results' column.
+I was able to extract campaign finance data numbers, but had issues during the pivot of attaining the candidates id.
+I loaded it into dataframes and then pushed it into mongoDB.
+
+I had hoped to understand the data a bit better and seperate by party, campaign amounts and votes for certain bills,
+but was unable to complete the task in time.
